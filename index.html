@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FNLB Launcher</title>
+</head>
+<body>
+  <h1>🚀 Start FNLB</h1>
+  <form method="POST" action="/start">
+    <label>API Token:<br>
+      <input name="apiToken" required />
+    </label><br><br>
+
+    <label>Categories (comma-separated):<br>
+      <input name="categories" required />
+    </label><br><br>
+
+    <button type="submit">Start FNLB</button>
+  </form>
+
+  <hr />
+
+  <h2>🔁 Restart FNLB</h2>
+  <form method="POST" action="/restart">
+    <button type="submit">Restart</button>
+  </form>
+</body>
+</html>
